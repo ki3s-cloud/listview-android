@@ -1,2 +1,2 @@
 # listview-android
-Listview android: add, fix,update,delete data on listview
+CustomListview android: event checkbox, send arraylist to other layout.
