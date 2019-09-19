@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="2">
+    <TextView
+    android:id="@+id/costFoods"
+    android:text="Giá món ăn"
+    android:layout_margin="10dp"
+    android:layout_width="0dp"
+    android:layout_weight="1"
+    android:layout_height="wrap_content" />
+    <CheckBox
+        android:id="@+id/checkFoods"
+        android:text="Chọn"
+        android:focusable="false"
+        android:layout_margin="10dp"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content" />
+</LinearLayout>
